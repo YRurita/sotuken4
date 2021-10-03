@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Clipboard</title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+<script>
+window.onload = function () {
+    new Clipboard('.btn');
+};
+</script>
+
+<!-- tag -->
+<button class="btn" data-clipboard-text="この値がコピーされます">
+タグ内の値をクリップボードへコピー
+</button>
+
+<!-- input -->
+<input id="foo" value="inputの値">
+<button class="btn" data-clipboard-target="#foo">
+対象：inputのvalue
+</button>
+
+<!-- textarea -->
+<textarea id="bar">テキストエディタの文字</textarea>
+<button class="btn" data-clipboard-target="#bar">
+対象：テキストエリアの文字をコピー
+</button>
+<button class="btn" data-clipboard-action="cut" data-clipboard-target="#bar">
+対象：テキストエリアの文字をカット
+</button>
+
+</body>
+</html>

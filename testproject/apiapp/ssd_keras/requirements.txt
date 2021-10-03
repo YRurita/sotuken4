@@ -1,0 +1,7 @@
+matplotlib
+h5py
+opencv-python
+keras==1.2.2
+tensorflow==1.2.0
+scipy==1.0.0
+django

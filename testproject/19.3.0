@@ -1,0 +1,6 @@
+Collecting dlib
+  Using cached dlib-19.22.1.tar.gz (7.4 MB)
+Building wheels for collected packages: dlib
+  Building wheel for dlib (setup.py): started
+  Building wheel for dlib (setup.py): still running...
+  Building wheel for dlib (setup.py): finished with status 'canceled'
